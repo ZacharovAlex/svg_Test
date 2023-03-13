@@ -49,9 +49,17 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             options: CarouselOptions(),
           ),
-          const SizedBox(height: 50,),
-          SvgPicture.asset('assets/tronLogo.svg',width: 200,),
-         SvgPicture.network('https://www.svgrepo.com/show/149669/molecules.svg',width: 200,),
+          const SizedBox(
+            height: 50,
+          ),
+          SvgPicture.asset(
+            'assets/tronLogo.svg',
+            width: 200,
+          ),
+          SvgPicture.network(
+            'https://www.svgrepo.com/show/149669/molecules.svg',
+            width: 200,
+          ),
           //  SvgGenImage(_assetName)
         ],
       ),
